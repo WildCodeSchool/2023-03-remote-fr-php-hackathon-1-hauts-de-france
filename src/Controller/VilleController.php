@@ -6,7 +6,7 @@ class VilleController extends AbstractController
 {
     public function lille(): string
     {
-        return $this->twig->render('Home/lille.html.twig');
+        return $this->twig->render('Home/Lille.html.twig');
     }
     public function lens(): string
     {
@@ -14,7 +14,7 @@ class VilleController extends AbstractController
     }
     public function arras(): string
     {
-        return $this->twig->render('Home/arras.html.twig');
+        return $this->twig->render('Home/Arras.html.twig');
     }
     public function dunkerque(): string
     {
